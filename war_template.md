@@ -18,10 +18,12 @@ _What triggered the war? Political, religious, economic, or cultural causes._
 
 ---
 
-##  Major Battles
-- [Battle of Example](../battles/example_battle.md) – quick one-line summary.  
+## Major Battles
+<!-- Add links to battles in /battles/, each with a one-line summary -->
 
----
+- Battle of Example – one-line summary here
+
+  ---
 
 ## Timeline
 | Year | Event |
@@ -37,8 +39,10 @@ _Consequences, treaties, cultural impact, shifts in power._
 ---
 
 ## Maps & Visuals
-- [Map of campaign](../images/example_map.png)  
-- [Contemporary artwork or tapestry](../images/example_art.jpg)  
+<!-- Add image files to /images/ and update the links below -->
+
+- Map of campaign: `../images/example_map.png`  
+- Contemporary artwork/tapestry: `../images/example_art.jpg`
 
 ---
 
