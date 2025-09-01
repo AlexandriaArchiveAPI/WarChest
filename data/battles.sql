@@ -131,8 +131,16 @@ JOIN battle_belligerents bb ON bb.battle_id = b.id
 JOIN belligerents be ON be.id = bb.belligerent_id
 GROUP BY b.id, bb.side;
 
--- ---------- Example queries (uncomment to test in sqlite3) ----------
--- .headers on
--- .mode column
--- SELECT * FROM battle_overview;
--- SELECT * FROM battle_sides WHERE battle = 'Battle of Hastings';
+-- ---------- Example usage (SQLite) ----------
+-- From repo root:
+--   sqlite3 data/warchest.db < data/battles.sql
+--
+-- Quick checks:
+--   sqlite3 data/warchest.db "SELECT * FROM battle_overview;"
+--   sqlite3 data/warchest.db "SELECT * FROM battle_sides WHERE battle='Battle of Hastings';"
+
+-- ---------- Postgres notes ----------
+-- Replace "INTEGER PRIMARY KEY" with "GENERATED ALWAYS AS IDENTITY" (or SERIAL).
+-- Remove "PRAGMA foreign_keys = ON;" (Postgres enforces FKs by default).
+-- Change "INSERT OR IGNORE" to "INSERT ... ON CONFLICT DO NOTHING".
+-- Replace "GROUP_CONCAT" with "string_agg".
