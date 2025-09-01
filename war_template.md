@@ -21,9 +21,9 @@ _What triggered the war? Political, religious, economic, or cultural causes._
 ## Major Battles
 <!-- Add links to battles in /battles/, each with a one-line summary -->
 
-- Battle of Example – one-line summary here
+- Battle of (X) – one-line summary here
 
-  ---
+---
 
 ## Timeline
 | Year | Event |
