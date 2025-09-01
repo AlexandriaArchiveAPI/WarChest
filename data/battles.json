@@ -1,0 +1,35 @@
+[
+  {
+    "name": "Battle of Thermopylae",
+    "year": "480 BCE",
+    "location": "Thermopylae",
+    "war": "Greco-Persian Wars",
+    "belligerents": ["Greek city-states", "Achaemenid Persia"],
+    "commanders": ["Leonidas I", "Xerxes I"],
+    "strength": "~7,000 Greeks vs. ~100,000–150,000 Persians",
+    "outcome": "Persian victory",
+    "significance": "Symbol of heroic resistance against overwhelming odds"
+  },
+  {
+    "name": "Battle of Hastings",
+    "year": "1066 CE",
+    "location": "Hastings",
+    "war": "Norman Conquest of England",
+    "belligerents": ["Normans", "Anglo-Saxons"],
+    "commanders": ["William of Normandy", "Harold II"],
+    "strength": "~7,000 each side",
+    "outcome": "Norman victory",
+    "significance": "Beginning of Norman rule in England"
+  },
+  {
+    "name": "Battle of Agincourt",
+    "year": "1415 CE",
+    "location": "Northern France",
+    "war": "Hundred Years' War",
+    "belligerents": ["England", "France"],
+    "commanders": ["Henry V of England", "Charles d'Albret"],
+    "strength": "~6,000 English vs. ~20,000 French",
+    "outcome": "English victory",
+    "significance": "Showcase of longbow effectiveness; boosted English morale"
+  }
+]
